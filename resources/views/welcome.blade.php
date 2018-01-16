@@ -53,7 +53,7 @@
             <li class="divider"></li>
             <li><a href="#!">three</a></li>
         </ul>
-        <nav>
+        <nav class="indigo darken-4">
             <div class="nav-wrapper">
             <a href="#!" class="brand-logo">Logo</a>
             <ul class="right hide-on-med-and-down">
@@ -74,25 +74,93 @@
                     <div class="row center">
                     <h5 class="header col s12 white-text text-darken-4">Worlds number 1 place for recruits!</h5>
                     </div>
-
-         
+                    <div class="row center">
+                        <div class="center-align">
+                            <a href="" class="btn indigo darken-3">Explore More</a>
+                        </div>
+                    </div>
                     <br>
                     
                     <div class="fixed-action-btn horizontal click-to-toggle">
                             <a class="btn-floating btn-large red">
-                              <i class="large material-icons">mode_edit</i>
+                                    <i class="fa fa-bars" aria-hidden="true"></i>
                             </a>
                             <ul>
-                              <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-                              <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-                              <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-                              <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+                              <li><a class="btn-floating red darken-3"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                              <li><a class="btn-floating brown darken-1"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                              <li><a href="twitter.com" class="btn-floating blue"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                              <li><a class="btn-floating blue darken-4"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                             </ul>
-                          </div>
+                    </div>
 
                 </div>
                 </div>
-                <div class="parallax"><img src="{{ asset('images/background1.jpeg') }}" alt="Unsplashed background img 1"></div>
+                <div class="parallax"><img src="{{ asset('images/background3.jpg') }}" alt="Unsplashed background img 1"></div>
+          </div>
+          <br>
+          <div class="container">
+              <div class="row">
+                  <div class="center-align">
+                      <h3>Recent Profiles</h3>
+                  </div>
+
+                  <div class="col l4 m3 s12">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/avatars/man_avatar.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">John Doe <span class="right"><i class="fa fa-caret-up"></i></span></span>
+                                {{--  <p><a href="#">This is a link</a></p>  --}}
+                                <b>Interested In:</b> Electrical Engineering
+                                <b>Interested In:</b> Electrical Engineering
+                                <b>Interested In:</b> Electrical Engineering
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">John Doe <span class="right"><i class="fa fa-caret-down"></i></span></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                  </div>
+
+                  <div class="col l4 m3 s12">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/avatars/tutu.jpg" height="300px">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">Thulani Tembo <span class="right"><i class="fa fa-caret-up"></i></span></span>
+                                {{--  <p><a href="#">This is a link</a></p>  --}}
+                                <b>Interested In:</b> Electrical Engineering
+                                <b>Interested In:</b> Electrical Engineering
+                                <b>Interested In:</b> Electrical Engineering
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Thulani Tembo <span class="right"><i class="fa fa-caret-down"></i></span></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                  </div>
+
+                  <div class="col l4 m3 s12">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/avatars/man_avatar.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">John Doe <span class="right"><i class="fa fa-caret-up"></i></span></span>
+                                {{--  <p><a href="#">This is a link</a></p>  --}}
+                                <b>Interested In:</b> Electrical Engineering
+                                <b>Interested In:</b> Electrical Engineering
+                                <b>Interested In:</b> Electrical Engineering
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">John Doe <span class="right"><i class="fa fa-caret-down"></i></span></span>
+                                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                            </div>
+                        </div>
+                  </div>
+              </div>
           </div>
 
 
@@ -106,7 +174,20 @@
 
 
 
-
+        <footer class="page-footer indigo darken-4">
+            <div class="container">
+                <div class="row">
+              
+                </div>
+                  
+                </div>
+                <div class="footer-copyright ">
+                    <div class="container">
+                        © 2017, All rights reserved.
+                        <div class="right">recruits-hub</div>
+                    </div>
+                </div>
+        </footer>
         <script>
                 $(document).ready(function(){
                     $(".dropdown-button").dropdown();
